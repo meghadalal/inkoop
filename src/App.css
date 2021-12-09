@@ -1,38 +1,86 @@
 .App {
   text-align: center;
+  margin: 10px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Top {
+  color: black;
+  font-size:xxx-large;
+  font-family: Georgia;
+  font-weight: bolder;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.asd {
+  text-align: center;
+  align-content: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-style: normal;
+  font-weight: bolder;
+  padding: 50px ;
+  padding-right: 35%;
+}
+.qwe {
+  text-align-last: left;
+  padding-inline-end: 0rem;
+  border-radius: 45%;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.Middle {
+  font-size: 0.6cm;
+  color: black;
+}
+.my {
+  color: black;
+  padding-bottom: 50px;
+  padding-top: 20px;
+  background-color: white;
+}
+.lorem {
+  background-color: white;
+  color: black;
+  font-family: Georgia;
+  font-weight: bolder;
+  border-radius: 12%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-color: rgb(2, 2, 2);
+  border-style: ridge;
+  height: 250px;
+  width: 437px;
+}
+.image {
+  width: 520px;
+  height: 320px;
+  border-radius: 5%;
+}
+.d-flex{
+  border-radius: 10%;
+}
+.abc {
+  background-color: blue;
+}
+.image1 {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+}
+.navv {
+  font-style: normal;
+  font-weight: bolder;
+  font-size:xx-large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  justify-content: space-evenly;
+}
+.bottom {
+  background-color: blue;
+  padding-bottom: 50px;
+  border-radius: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.row {
+  padding-top: 40px;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  font-style: normal;
 }
